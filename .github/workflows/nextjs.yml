@@ -26,8 +26,6 @@ jobs:
           version: 8 # Specify pnpm version
       - name: Enable Corepack
         run: corepack enable
-      - name: Install PNPM
-        run: npm install -g pnpm
       - name: Detect package manager
         id: detect-package-manager
         run: |
